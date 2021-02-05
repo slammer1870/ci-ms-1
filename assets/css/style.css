@@ -1,3 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif !important;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #69707a;
+  text-align: left;
+  background-color: #fff;
+}
+
+#topNav {
+  background-color: transparent;
+  z-index: 100;
+}
+
+.logo {
+  color: #c4c4c4;
+}
+
 .masthead {
   position: relative;
   width: 100%;
@@ -17,6 +38,23 @@
   background-size: cover;
 }
 
-.logo{
-  color: #c4c4c4
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    padding: 0;
+  }
+}
+
+#headerText {
+  max-width: 36rem;
+}
+
+.usage {
+  padding-top: 10rem;
+  background: linear-gradient(
+    to bottom,
+    #000000 0%,
+    rgba(0, 0, 0, 0.9) 75%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
 }
