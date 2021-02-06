@@ -28,7 +28,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="topNav">
       <div class="container">
         <a href="/">
-          <i class="fas fa-hand-rock fa-2x logo"></i>
+          <i class="fas fa-hand-rock fa-2x text-white"></i>
         </a>
         <button
           class="navbar-toggler"
@@ -47,13 +47,13 @@
         >
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a href="/home" class="nav-link">Home</a>
+              <a href="/home" class="nav-link text-white">Home</a>
             </li>
             <li class="nav-item">
-              <a href="/about" class="nav-link">About</a>
+              <a href="/about" class="nav-link text-white">About</a>
             </li>
             <li class="nav-item">
-              <a href="/contact" class="nav-link">Contact</a>
+              <a href="/contact" class="nav-link text-white">Contact</a>
             </li>
           </ul>
         </div>
@@ -63,83 +63,103 @@
     <header class="masthead">
       <div class="container d-flex h-100 align-items-center">
         <div class="ml-0 text-left" id="headerText">
-          <h1 class="mx-auto my-0 text-uppercase">Hook Grip Tech</h1>
-          <h4 class="text-white-50 mx-auto mt-2 mb-5">
+          <h1 class="text-white mx-auto my-0 text-uppercase">Hook Grip Tech</h1>
+          <h4 class="text-white mx-auto mt-3 mb-3">
             Open Source Software to bring your Jiu Jitsu Online
           </h4>
-          <a class="btn btn-primary me-4 js-scroll-trigger" href="#about"
-            ><i class="fas fa-file-download"></i>Download Zip</a
+          <a class="btn btn-light me-4 js-scroll-trigger" href="#about"
+            ><i class="fas fa-file-download me-2"></i>Download Zip</a
           >
-          <a class="btn btn-primary js-scroll-trigger" href="#about"
-            ><i class="fab fa-github"></i>View on Github</a
+          <a class="btn btn-light js-scroll-trigger" href="#about"
+            ><i class="fab fa-github me-2"></i>View on Github</a
           >
         </div>
       </div>
     </header>
     <section class="usage text-center">
       <div class="container">
-        <div class="row">
+        <div class="row text-white-50">
           <div class="col-lg-4">
-            <h2>Deploy</h2>
-            <p>
-              Configure and deploy your app to servers, we recommend Heroku and
-              Vercel.
-            </p>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="141.913"
-              height="80.075"
-              viewBox="0 0 141.913 80.075"
-            >
-              <g
-                id="Group_2"
-                data-name="Group 2"
-                transform="translate(-342.087 -1459.972)"
+            <div class="title">
+              <h2 class="text-white">Deploy</h2>
+              <p>
+                Configure and deploy your app to servers, we recommend Heroku
+                and Vercel.
+              </p>
+            </div>
+            <div class="title-logo">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="141.913"
+                height="80.075"
+                viewBox="0 0 141.913 80.075"
+                class="mb-4"
               >
-                <path
-                  id="cloud-solid"
-                  d="M96.091,66.783A17.179,17.179,0,0,0,80.075,43.439a17.072,17.072,0,0,0-9.527,2.9A28.6,28.6,0,0,0,17.159,60.6c0,.483.018.965.036,1.448a25.745,25.745,0,0,0,8.544,50.029H91.515a22.877,22.877,0,0,0,4.576-45.293Z"
-                  transform="translate(369.607 1427.972)"
-                  fill="#fff"
-                />
-                <path
-                  id="long-arrow-alt-right-solid"
-                  d="M63.273,163.382H2.419A2.753,2.753,0,0,0,0,166.375v13.969a2.753,2.753,0,0,0,2.419,2.993H63.273v11.489c0,5.334,5.21,8,8.257,4.233l17.345-21.467a7.033,7.033,0,0,0,0-8.467L71.53,147.659c-3.047-3.771-8.257-1.1-8.257,4.233Z"
-                  transform="translate(342.587 1333.559)"
-                  fill="#d8d8d8"
-                  stroke="#fff"
-                  stroke-width="1"
-                />
-              </g>
-            </svg>
-            <p>Interested in having us deploy and maintained your app?</p>
+                <g
+                  id="Group_2"
+                  data-name="Group 2"
+                  transform="translate(-342.087 -1459.972)"
+                >
+                  <path
+                    id="cloud-solid"
+                    d="M96.091,66.783A17.179,17.179,0,0,0,80.075,43.439a17.072,17.072,0,0,0-9.527,2.9A28.6,28.6,0,0,0,17.159,60.6c0,.483.018.965.036,1.448a25.745,25.745,0,0,0,8.544,50.029H91.515a22.877,22.877,0,0,0,4.576-45.293Z"
+                    transform="translate(369.607 1427.972)"
+                    fill="#fff"
+                  />
+                  <path
+                    id="long-arrow-alt-right-solid"
+                    d="M63.273,163.382H2.419A2.753,2.753,0,0,0,0,166.375v13.969a2.753,2.753,0,0,0,2.419,2.993H63.273v11.489c0,5.334,5.21,8,8.257,4.233l17.345-21.467a7.033,7.033,0,0,0,0-8.467L71.53,147.659c-3.047-3.771-8.257-1.1-8.257,4.233Z"
+                    transform="translate(342.587 1333.559)"
+                    fill="#d8d8d8"
+                    stroke="#fff"
+                    stroke-width="1"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div class="section-footer">
+              <p>Interested in having us deploy and maintained your app?</p>
+            </div>
           </div>
-          <div class="col-lg-4">
-            <h2>Curate</h2>
-            <p>
-              Embed you content into your own custom CMS. A version of Strapi is
-              included in your download.
-            </p>
-            <i class="fas fa-edit fa-6x"></i>
-            <p>
-              We recommend Vimeo or Youtube to host your videos and any written
-              content can be written directly into your markdown editor.
-            </p>
+          <div class="col-lg-4 h-100">
+            <div class="title">
+              <h2 class="text-white">Curate</h2>
+              <p>
+                Embed you content into your own custom CMS. A version of Strapi
+                is included in your download.
+              </p>
+            </div>
+            <div class="title-logo">
+              <i class="fas fa-edit fa-6x mb-4"></i>
+            </div>
+            <div class="section-footer">
+              <p>
+                We recommend Vimeo or Youtube to host your videos and any
+                written content can be written directly into your markdown
+                editor.
+              </p>
+            </div>
           </div>
-          <div class="col-lg-4">
-            <h2>Sell</h2>
-            <p>Sell your products on a Stripe hosted checkout.</p>
-            <i class="fas fa-shopping-cart fa-6x"></i>
-            <p>We take no commission and no fees.</p>
+          <div class="col-lg-4 h-100">
+            <div class="title">
+              <h2 class="text-white">Sell</h2>
+              <p>Sell your products on a Stripe hosted checkout.</p>
+            </div>
+            <div class="title-logo">
+              <i class="fas fa-shopping-cart fa-6x mb-4"></i>
+            </div>
+            <div class="section-footer">
+              <p>We take no commission and no fees.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="features text-center">
       <div class="container">
+        <h1 class="mb-5 pb-5">Features</h1>
         <div class="row">
-            <h1>Features</h1>
-          <div class="col-lg-4">
+          <div class="col-lg-4 box-section">
             <i class="far fa-envelope fa-6x"></i>
             <h2>Articles</h2>
           </div>
@@ -152,36 +172,36 @@
             <h2>Curriculums</h2>
           </div>
           <hr />
-          <div class="col-lg-4">
-            <p>
-              Articles can be used to engage your audience on a regular
-              basis.<br /><br />
-              You can write articles in the markdown editor, you can also
-              include image and video embeds
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <p>
-              Our courses feature allows you to sell courses directly from your
-              app. <br /><br />
-              Courses are structured in chapters and lessons.
-            </p>
-          </div>
-          <div class="col-lg-4">
-            <p>
-              Curriculums allow you to provide personalised coaching, direct to
-              consumer.
-              <br /><br />
-              Curriculums are structured the same way as courses but can be
-              assigned to specific users.
-            </p>
+          <div class="row">
+            <div class="col-lg-4">
+              <p>
+                Articles can be used to engage your audience on a regular
+                basis.<br /><br />
+                You can write articles in the markdown editor, you can also
+                include image and video embeds
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <p>
+                Our courses feature allows you to sell courses directly from
+                your app. <br /><br />
+                Courses are structured in chapters and lessons.
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <p>
+                Curriculums allow you to provide personalised coaching, direct
+                to consumer.
+                <br /><br />
+                Curriculums are structured the same way as courses but can be
+                assigned to specific users.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="technologies">
-        
-    </section>
+    <section class="technologies"></section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"

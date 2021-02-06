@@ -51,7 +51,6 @@ body {
 
 .usage {
   padding-top: 10rem;
-  padding-bottom: 10rem;
   background: linear-gradient(
     to bottom,
     #000000 0%,
@@ -62,5 +61,23 @@ body {
 
 .features {
   padding-top: 10rem;
-  padding-bottom: 10rem
+  padding-bottom: 10rem;
+}
+
+.title {
+  min-height: 10rem;
+}
+
+.title h2 {
+  margin-bottom: 2rem;
+}
+
+.title-logo {
+  min-height: 10rem;
+  align-items: center;
+}
+
+.section-footer {
+  min-height: 5rem;
+  margin-bottom: 10rem;
 }
