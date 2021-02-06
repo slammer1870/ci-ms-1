@@ -35,8 +35,8 @@
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01"
+          data-bs-target="#navbarToggler"
+          aria-controls="navbarToggler"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -44,11 +44,11 @@
         </button>
         <div
           class="collapse navbar-collapse justify-content-end"
-          id="navbarTogglerDemo01"
+          id="navbarToggler"
         >
-          <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav text-center mr-auto" id="#navList">
             <li class="nav-item">
-              <a href="/home" class="nav-link text-white">Home</a>
+              <a href="/" class="nav-link text-white">Home</a>
             </li>
             <li class="nav-item">
               <a href="#usage" class="nav-link text-white">How does it work?</a>
@@ -167,12 +167,14 @@
           <h4 class="text-white mx-auto mt-3 mb-3">
             Open Source Software to bring your Jiu Jitsu Online
           </h4>
-          <a class="btn btn-light me-4 js-scroll-trigger" href="#about"
-            ><i class="fas fa-file-download me-2"></i>Download Zip</a
-          >
-          <a class="btn btn-light js-scroll-trigger" href="#about"
-            ><i class="fab fa-github me-2"></i>View on Github</a
-          >
+          <div class="justify-content-center">
+            <a class="btn btn-light me-4 js-scroll-trigger" href="#about"
+              ><i class="fas fa-file-download me-2"></i>Download Zip</a
+            >
+            <a class="btn btn-light js-scroll-trigger" href="#about"
+              ><i class="fab fa-github me-2"></i>View on Github</a
+            >
+          </div>
         </div>
       </div>
     </header>

@@ -19,6 +19,11 @@ body {
   color: #c4c4c4;
 }
 
+#navList{
+  justify-content: center;
+  align-items: center;
+}
+
 .masthead {
   position: relative;
   width: 100%;
