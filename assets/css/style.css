@@ -11,7 +11,16 @@ body {
 }
 
 #topNav {
+  z-index: 10300;
+}
+
+.bg-clear {
   background-color: transparent;
+  z-index: 1050;
+}
+
+.bg-dark{
+  background-color: #272727;
   z-index: 1050;
 }
 
@@ -119,12 +128,7 @@ body {
   color: #f4f4f4
 }
 
-.modal-backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 10000;
-  width: 100vw;
-  height: 100vh;
-  background-color: #000;
+.social-links a{
+  color: #f4f4f4;
+  padding: 1rem
 }
