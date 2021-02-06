@@ -26,7 +26,10 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-clear" id="topNav">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top bg-clear"
+      id="topNav"
+    >
       <div class="container">
         <a href="/">
           <i class="fas fa-hand-rock fa-2x text-white"></i>
@@ -52,7 +55,7 @@
               <a href="/" class="nav-link text-white">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#usage" class="nav-link text-white" >How does it work?</a>
+              <a href="#usage" class="nav-link text-white">How does it work?</a>
             </li>
             <li class="nav-item">
               <!-- Button trigger modal -->
@@ -82,19 +85,25 @@
                       </h5>
                       <button
                         type="button"
-                        class="close"
+                        class=""
                         data-dismiss="modal"
                         aria-label="Close"
                       >
-                        <span aria-hidden="true">&times;</span>
+                        <i class="fas fa-times fa-lg"></i>
                       </button>
                     </div>
                     <div class="modal-body">
-                      <form class="form-horizontal" action="" method="post">
+                      <form
+                        class="form-horizontal text-start"
+                        action=""
+                        method="post"
+                      >
                         <fieldset>
                           <!-- Name input-->
                           <div class="form-group">
-                            <label class="col-md-3 control-label" for="name"
+                            <label
+                              class="col-md-3 control-label pb-3"
+                              for="name"
                               >Name</label
                             >
                             <div class="col-md-9">
@@ -110,7 +119,9 @@
 
                           <!-- Email input-->
                           <div class="form-group">
-                            <label class="col-md-3 control-label" for="email"
+                            <label
+                              class="col-md-3 control-label py-3"
+                              for="email"
                               >Your E-mail</label
                             >
                             <div class="col-md-9">
@@ -126,7 +137,9 @@
 
                           <!-- Message body -->
                           <div class="form-group">
-                            <label class="col-md-3 control-label" for="message"
+                            <label
+                              class="col-md-3 control-label py-3"
+                              for="message"
                               >Your message</label
                             >
                             <div class="col-md-9">
@@ -168,11 +181,11 @@
           <h4 class="text-white mx-auto mt-3 mb-3">
             Open Source Software to bring your Jiu Jitsu Online
           </h4>
-          <div class="justify-content-center">
-            <a class="btn btn-light me-4 js-scroll-trigger" href="#about"
+          <div class="header-buttons justify-content-center">
+            <a class="btn btn-light me-4" href="https://github.com/slammer1870/ci-ms-1/archive/main.zip"
               ><i class="fas fa-file-download me-2"></i>Download Zip</a
             >
-            <a class="btn btn-light js-scroll-trigger" href="#about"
+            <a class="btn btn-light" href="https://github.com/slammer1870/ci-ms-1"
               ><i class="fab fa-github me-2"></i>View on Github</a
             >
           </div>
@@ -552,14 +565,16 @@
         </div>
       </div>
     </section>
+    <!--Footer with social links-->
     <footer class="footer text-center">
       <div class="container">
-          <div class="pt-4">
-        <p>&copy; Hook Grip Tech 2021</p></div>
+        <div class="pt-4">
+          <p>&copy; Hook Grip Tech 2021</p>
+        </div>
         <div class="social-links">
-            <a href=""><i class="fab fa-instagram fa-lg"></i></a>
-            <a href=""><i class="fab fa-linkedin fa-lg"></i></a>
-            <a href=""><i class="fab fa-youtube fa-lg"></i></a>
+          <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-lg"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+          <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube fa-lg"></i></a>
         </div>
       </div>
     </footer>
@@ -590,19 +605,19 @@
       crossorigin="anonymous"
     ></script>
     <script>
-        $(function() {
-    //caches a jQuery object containing the header element
-    var header = $("#topNav");
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
+        //jQuery for changing header background onScroll
+      $(function () {
+        var header = $("#topNav");
+        $(window).scroll(function () {
+          var scroll = $(window).scrollTop();
 
-        if (scroll >= 500) {
-            header.removeClass('bg-clear').addClass("bg-dark");
-        } else {
-            header.removeClass("bg-dark").addClass('bg-clear');
-        }
-    });
-});
+          if (scroll >= 500) {
+            header.removeClass("bg-clear").addClass("bg-dark");
+          } else {
+            header.removeClass("bg-dark").addClass("bg-clear");
+          }
+        });
+      });
     </script>
   </body>
 </html>
