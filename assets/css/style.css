@@ -12,7 +12,7 @@ body {
 
 #topNav {
   background-color: transparent;
-  z-index: 100;
+  z-index: 1050;
 }
 
 .logo {
@@ -112,4 +112,14 @@ body {
   background-color: #272727;
   min-height: 8rem;
   color: #f4f4f4
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
 }
