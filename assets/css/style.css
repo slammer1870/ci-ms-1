@@ -66,6 +66,12 @@ body {
   }
 }
 
+@media (max-width: 992px) {
+  #navbarToggler {
+    padding-bottom: 2rem;
+  }
+}
+
 #headerText {
   max-width: 36rem;
 }
