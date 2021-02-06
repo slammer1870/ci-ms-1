@@ -12,14 +12,16 @@ body {
 
 #topNav {
   z-index: 10300;
+  transition: background-color 0.5s ease;
 }
 
 .bg-clear {
   background-color: transparent;
   z-index: 1050;
+
 }
 
-.bg-dark{
+.bg-dark {
   background-color: #272727;
   z-index: 1050;
 }
@@ -28,7 +30,7 @@ body {
   color: #c4c4c4;
 }
 
-#navList{
+#navList {
   justify-content: center;
   align-items: center;
 }
@@ -69,7 +71,7 @@ body {
 }
 
 @media (max-width: 384px) {
-  .header-buttons{
+  .header-buttons {
     display: flex;
     font-size: 1rem;
   }
@@ -121,7 +123,7 @@ body {
     display: flex !important;
     flex-direction: row;
   }
-  .features-alignment hr{
+  .features-alignment hr {
     transform: rotate(90deg);
   }
 }
@@ -134,13 +136,13 @@ body {
   padding-top: 6rem;
 }
 
-.footer{
+.footer {
   background-color: #272727;
   min-height: 8rem;
-  color: #f4f4f4
+  color: #f4f4f4;
 }
 
-.social-links a{
+.social-links a {
   color: #f4f4f4;
-  padding: 1rem
+  padding: 1rem;
 }
