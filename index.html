@@ -55,7 +55,11 @@
               <a href="/ci-ms-1" class="nav-link text-white">Home</a>
             </li>
             <li class="nav-item">
-              <a href="#usage" class="nav-link text-white">How does it work?</a>
+              <a
+                href="#usage"
+                class="nav-link text-white"
+                >How does it work?</a
+              >
             </li>
             <li class="nav-item">
               <a href="#demo" class="nav-link text-white">Try it out</a>
@@ -651,6 +655,11 @@
             header.removeClass("bg-dark").addClass("bg-clear");
           }
         });
+      });
+
+      //jQuery to collapse navbar when link is clicked
+      $(".navbar-nav>li>a").on("click", function () {
+        $(".navbar-collapse").collapse("hide");
       });
     </script>
   </body>
