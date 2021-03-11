@@ -12,7 +12,7 @@ The fundamental experiences we seek to provide are:
 
 ## Design
 ### Colour Scheme
-The colour scheme is based around off-whites and dark greys with Bootstrap's standard blue used for interactive emelemts like submit buttons.
+The colour scheme is based around off-whites and dark greys with Bootstrap's standard blue used for interactive elements like submit buttons.
 ### Typography
 The typeface used on this site is Montserrat. Montserrat has a sharp professional feel that goes well the the brand and looks great on mobile. San Serif is used as a back up font.
 ### Images
