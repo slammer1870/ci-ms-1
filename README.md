@@ -34,11 +34,11 @@ Single page, fully responsive with in interacitve iframe to demo the product.
 1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Montserrat' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+    - jQuery came with Bootstrap to make the navbar responsive.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the VSCode plugin to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
@@ -48,8 +48,10 @@ Single page, fully responsive with in interacitve iframe to demo the product.
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 
 ## Deployment
+
+The project was deployed to Github Pages by adding a 'gh-pages' branch to the github repo. I then configured a custom domain using the DNS records on GoDaddy where the domain was purchased.
