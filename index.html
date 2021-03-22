@@ -1,680 +1,682 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/logo.svg" />
-    <title>Hook Grip Tech</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark fixed-top bg-clear"
-      id="topNav"
-    >
-      <div class="container">
-        <a href="/">
-          <i class="fas fa-hand-rock fa-2x text-white"></i>
-        </a>
-        <!-- Mobile Nav Button -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarToggler"
-          aria-controls="navbarToggler"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarToggler"
-        >
-          <ul class="navbar-nav text-center mr-auto" id="#navList">
-            <li class="nav-item">
-              <a href="/" class="nav-link text-white">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#usage" class="nav-link text-white">How does it work?</a>
-            </li>
-            <li class="nav-item">
-              <a href="#demo" class="nav-link text-white">Try it out</a>
-            </li>
-            <li class="nav-item">
-              <!-- Button trigger modal -->
-              <button
-                type="button"
-                class="btn btn-primary"
-                data-toggle="modal"
-                data-target="#exampleModalCenter"
-              >
-                Contact
-              </button>
-
-              <!-- Modal -->
-              <div
-                class="modal fade"
-                id="exampleModalCenter"
-                tabindex="-1"
-                role="dialog"
-                aria-labelledby="exampleModalCenterTitle"
-                aria-hidden="true"
-              >
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalCenterTitle">
-                        Contact Us
-                      </h5>
-                      <button
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="assets/css/style.css" />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+         crossorigin="anonymous"
+         />
+      <link
+         rel="stylesheet"
+         href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+         crossorigin="anonymous"
+         />
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap"
+         rel="stylesheet"
+         />
+      <link rel="shortcut icon" type="image/x-icon" href="assets/logo.svg" />
+      <title>Hook Grip Tech</title>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   </head>
+   <body>
+      <!-- Navbar -->
+      <nav
+         class="navbar navbar-expand-lg navbar-dark fixed-top bg-clear"
+         id="topNav"
+         >
+         <div class="container">
+            <a href="/">
+            <i class="fas fa-hand-rock fa-2x text-white"></i>
+            </a>
+            <!-- Mobile Nav Button -->
+            <button
+               class="navbar-toggler"
+               type="button"
+               data-bs-toggle="collapse"
+               data-bs-target="#navbarToggler"
+               aria-controls="navbarToggler"
+               aria-expanded="false"
+               aria-label="Toggle navigation"
+               >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+               class="collapse navbar-collapse justify-content-end"
+               id="navbarToggler"
+               >
+               <ul class="navbar-nav text-center mr-auto" id="#navList">
+                  <li class="nav-item">
+                     <a href="/" class="nav-link text-white">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#usage" class="nav-link text-white">How does it work?</a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#demo" class="nav-link text-white">Try it out</a>
+                  </li>
+                  <li class="nav-item">
+                     <!-- Button trigger modal -->
+                     <button
                         type="button"
-                        class=""
-                        data-dismiss="modal"
-                        aria-label="Close"
-                      >
-                        <i class="fas fa-times fa-lg"></i>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      <form
-                        class="form-horizontal text-start"
-                        action="https://formspree.io/f/mwkwdveb"
-                        method="post"
-                      >
-                        <fieldset>
-                          <!-- Name input-->
-                          <div class="form-group">
-                            <label
-                              class="col-md-3 control-label pb-3"
-                              for="name"
-                              >Name</label
-                            >
-                            <div class="col-md-9">
-                              <input
-                                id="name"
-                                name="name"
-                                type="text"
-                                placeholder="Your name"
-                                class="form-control"
-                              />
-                            </div>
-                          </div>
-
-                          <!-- Email input-->
-                          <div class="form-group">
-                            <label
-                              class="col-md-3 control-label py-3"
-                              for="email"
-                              >Your E-mail</label
-                            >
-                            <div class="col-md-9">
-                              <input
-                                id="email"
-                                name="email"
-                                type="text"
-                                placeholder="Your email"
-                                class="form-control"
-                              />
-                            </div>
-                          </div>
-
-                          <!-- Message body -->
-                          <div class="form-group">
-                            <label
-                              class="col-md-3 control-label py-3"
-                              for="message"
-                              >Your message</label
-                            >
-                            <div class="col-md-9">
-                              <textarea
-                                class="form-control"
-                                id="message"
-                                name="message"
-                                placeholder="Please enter your message here..."
-                                rows="5"
-                              ></textarea>
-                            </div>
-                          </div>
-
-                          <!-- Form actions -->
-                          <div class="modal-footer">
-                            <button
-                              type="submit"
-                              class="btn btn-primary btn-lg"
-                            >
-                              Submit
-                            </button>
-                          </div>
-                        </fieldset>
-                      </form>
-                    </div>
+                        class="btn btn-primary"
+                        data-toggle="modal"
+                        data-target="#exampleModalCenter"
+                        >
+                     Contact
+                     </button>
+                     <!-- Modal -->
+                     <div
+                        class="modal fade"
+                        id="exampleModalCenter"
+                        tabindex="-1"
+                        role="dialog"
+                        aria-labelledby="exampleModalCenterTitle"
+                        aria-hidden="true"
+                        >
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                           <div class="modal-content">
+                              <div class="modal-header">
+                                 <h5 class="modal-title" id="exampleModalCenterTitle">
+                                    Contact Us
+                                 </h5>
+                                 <button
+                                    type="button"
+                                    class=""
+                                    data-dismiss="modal"
+                                    aria-label="Close"
+                                    >
+                                 <i class="fas fa-times fa-lg"></i>
+                                 </button>
+                              </div>
+                              <div class="modal-body">
+                                 <form
+                                    class="form-horizontal text-start"
+                                    action="https://formspree.io/f/mwkwdveb"
+                                    method="post"
+                                    >
+                                    <fieldset>
+                                       <!-- Name input-->
+                                       <div class="form-group">
+                                          <label
+                                             class="col-md-3 control-label pb-3"
+                                             for="name"
+                                             >Name</label
+                                             >
+                                          <div class="col-md-9">
+                                             <input
+                                                id="name"
+                                                name="name"
+                                                type="text"
+                                                placeholder="Your name"
+                                                class="form-control"
+                                                required
+                                                />
+                                          </div>
+                                       </div>
+                                       <!-- Email input-->
+                                       <div class="form-group">
+                                          <label
+                                             class="col-md-3 control-label py-3"
+                                             for="email"
+                                             >Your E-mail</label
+                                             >
+                                          <div class="col-md-9">
+                                             <input
+                                                id="email"
+                                                name="email"
+                                                type="text"
+                                                placeholder="Your email"
+                                                class="form-control"
+                                                required
+                                                />
+                                          </div>
+                                       </div>
+                                       <!-- Message body -->
+                                       <div class="form-group">
+                                          <label
+                                             class="col-md-3 control-label py-3"
+                                             for="message"
+                                             >Your message</label
+                                             >
+                                          <div class="col-md-9">
+                                             <textarea
+                                                class="form-control"
+                                                id="message"
+                                                name="message"
+                                                placeholder="Please enter your message here..."
+                                                rows="5"
+                                                ></textarea>
+                                          </div>
+                                       </div>
+                                       <!-- Form actions -->
+                                       <div class="modal-footer">
+                                          <button
+                                             type="submit"
+                                             class="btn btn-primary btn-lg"
+                                             >
+                                          Submit
+                                          </button>
+                                       </div>
+                                    </fieldset>
+                                 </form>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!--Hero Image Section-->
+      <header class="masthead">
+         <div class="container d-flex h-100 align-items-center">
+            <div class="ml-0 text-left" id="headerText">
+               <h1 class="text-white mx-auto my-0 text-uppercase">
+                  Hook Grip Coaching App
+               </h1>
+               <h4 class="text-white mx-auto mt-3 mb-3">
+                  Deliver Personalised Coaching Through Video Curriculums
+               </h4>
+               <div class="header-buttons justify-content-center">
+                  <a
+                     class="btn btn-light me-4"
+                     href="https://demo.hookgrip.tech/"
+                     target="_blank"
+                     ><i class="fas fa-desktop me-2"></i>Try a Demo</a
+                     >
+                  <a
+                     class="btn btn-light"
+                     href="https://github.com/slammer1870/hook-grip-coaching-app-frontend"
+                     target="_blank"
+                     ><i class="fab fa-github me-2"></i>View on Github</a
+                     >
+               </div>
+            </div>
+         </div>
+      </header>
+      <!--Usage section-->
+      <section class="usage text-center" id="usage">
+         <div class="container">
+            <div class="row text-white-50">
+               <div class="col-lg-4">
+                  <div class="title">
+                     <h2 class="text-white">Deploy</h2>
+                     <p>
+                        Configure and deploy your app to servers, we recommend Heroku
+                        and Vercel.
+                     </p>
                   </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!--Hero Image Section-->
-    <header class="masthead">
-      <div class="container d-flex h-100 align-items-center">
-        <div class="ml-0 text-left" id="headerText">
-          <h1 class="text-white mx-auto my-0 text-uppercase">
-            Hook Grip Coaching App
-          </h1>
-          <h4 class="text-white mx-auto mt-3 mb-3">
-            Deliver Personalised Coaching Through Video Curriculums
-          </h4>
-          <div class="header-buttons justify-content-center">
-            <a
-              class="btn btn-light me-4"
-              href="https://demo.hookgrip.tech/"
-              target="_blank"
-              ><i class="fas fa-desktop me-2"></i>Try a Demo</a
-            >
-            <a
-              class="btn btn-light"
-              href="https://github.com/slammer1870/hook-grip-coaching-app-frontend"
-              target="_blank"
-              ><i class="fab fa-github me-2"></i>View on Github</a
-            >
-          </div>
-        </div>
-      </div>
-    </header>
-    <!--Usage section-->
-    <section class="usage text-center" id="usage">
-      <div class="container">
-        <div class="row text-white-50">
-          <div class="col-lg-4">
-            <div class="title">
-              <h2 class="text-white">Deploy</h2>
-              <p>
-                Configure and deploy your app to servers, we recommend Heroku
-                and Vercel.
-              </p>
+                  <div class="title-logo">
+                     <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="170.137"
+                        height="96"
+                        viewBox="0 0 141.913 80.075"
+                        class="mb-4"
+                        >
+                        <g
+                           id="Group_2"
+                           data-name="Group 2"
+                           transform="translate(-342.087 -1459.972)"
+                           >
+                           <path
+                              id="cloud-solid"
+                              d="M96.091,66.783A17.179,17.179,0,0,0,80.075,43.439a17.072,17.072,0,0,0-9.527,2.9A28.6,28.6,0,0,0,17.159,60.6c0,.483.018.965.036,1.448a25.745,25.745,0,0,0,8.544,50.029H91.515a22.877,22.877,0,0,0,4.576-45.293Z"
+                              transform="translate(369.607 1427.972)"
+                              fill="#fff"
+                              />
+                           <path
+                              id="long-arrow-alt-right-solid"
+                              d="M63.273,163.382H2.419A2.753,2.753,0,0,0,0,166.375v13.969a2.753,2.753,0,0,0,2.419,2.993H63.273v11.489c0,5.334,5.21,8,8.257,4.233l17.345-21.467a7.033,7.033,0,0,0,0-8.467L71.53,147.659c-3.047-3.771-8.257-1.1-8.257,4.233Z"
+                              transform="translate(342.587 1333.559)"
+                              fill="#d8d8d8"
+                              stroke="#fff"
+                              stroke-width="1"
+                              />
+                        </g>
+                     </svg>
+                  </div>
+                  <div class="section-footer">
+                     <p>
+                        Interested in having us deploy and maintained your app? Contact
+                        us now!
+                     </p>
+                  </div>
+               </div>
+               <div class="col-lg-4 h-100">
+                  <div class="title">
+                     <h2 class="text-white">Curate</h2>
+                     <p>
+                        Embed your content into your own custom CMS. A version of Strapi
+                        is included in your download.
+                     </p>
+                  </div>
+                  <div class="title-logo">
+                     <i class="fas fa-edit fa-6x mb-4"></i>
+                  </div>
+                  <div class="section-footer">
+                     <p>
+                        We recommend Vimeo or Youtube to host your videos and any
+                        written content can be written directly into your markdown
+                        editor.
+                     </p>
+                  </div>
+               </div>
+               <div class="col-lg-4 h-100">
+                  <div class="title">
+                     <h2 class="text-white">Sell</h2>
+                     <p>Sell your products on a Stripe hosted checkout.</p>
+                  </div>
+                  <div class="title-logo">
+                     <i class="fas fa-shopping-cart fa-6x mb-4"></i>
+                  </div>
+                  <div class="section-footer">
+                     <p>We take no commission and no fees.</p>
+                  </div>
+               </div>
             </div>
-            <div class="title-logo">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="170.137"
-                height="96"
-                viewBox="0 0 141.913 80.075"
-                class="mb-4"
-              >
-                <g
-                  id="Group_2"
-                  data-name="Group 2"
-                  transform="translate(-342.087 -1459.972)"
-                >
-                  <path
-                    id="cloud-solid"
-                    d="M96.091,66.783A17.179,17.179,0,0,0,80.075,43.439a17.072,17.072,0,0,0-9.527,2.9A28.6,28.6,0,0,0,17.159,60.6c0,.483.018.965.036,1.448a25.745,25.745,0,0,0,8.544,50.029H91.515a22.877,22.877,0,0,0,4.576-45.293Z"
-                    transform="translate(369.607 1427.972)"
-                    fill="#fff"
-                  />
-                  <path
-                    id="long-arrow-alt-right-solid"
-                    d="M63.273,163.382H2.419A2.753,2.753,0,0,0,0,166.375v13.969a2.753,2.753,0,0,0,2.419,2.993H63.273v11.489c0,5.334,5.21,8,8.257,4.233l17.345-21.467a7.033,7.033,0,0,0,0-8.467L71.53,147.659c-3.047-3.771-8.257-1.1-8.257,4.233Z"
-                    transform="translate(342.587 1333.559)"
-                    fill="#d8d8d8"
-                    stroke="#fff"
-                    stroke-width="1"
-                  />
-                </g>
-              </svg>
+         </div>
+      </section>
+      <!--Features section-->
+      <section class="features text-center">
+         <div class="container">
+         <h2 class="mb-5">Features</h2>
+         <!--Column aligment on small screens-->
+         <div class="features-alignment">
+            <div class="row">
+               <div class="col-12 col-lg-4 d-flex flex-row flex-md-column align-items-md-center mb-4">
+                  <div class="col-6">
+                     <i class="far fa-envelope fa-6x mb-2"></i>
+                     <h3 class="mb-4">Articles</h3>
+                  </div>
+                  <p>
+                     Articles can be used to engage your audience on a regular
+                     basis.
+                  </p>
+                  <p>
+                     You can write articles in the markdown editor, you can also
+                     include image and video embeds
+                  </p>
+               </div>
+               <div class="col-12 col-lg-4 d-flex flex-row flex-md-column align-items-md-center mb-4">
+                  <div class="col-6">
+                     <i class="fas fa-video fa-6x mb-2"></i>
+                     <h3 class="mb-4">Courses</h3>
+                  </div>
+                  <p>
+                     Our courses feature allows you to sell courses directly from
+                     your app. 
+                  </p>
+                  <p>
+                     Courses are structured in chapters and lessons.
+                  </p>
+               </div>
+               <div class="col-12 col-lg-4 d-flex flex-row flex-md-column align-items-md-center mb-4">
+                  <div class="col-6">
+                     <i class="fas fa-user-edit fa-6x mb-2"></i>
+                     <h3 class="mb-4">Curriculums</h3>
+                  </div>
+                  <p>
+                     Curriculums allow you to provide personalised coaching, direct
+                     to consumer.
+                  </p>
+                  <p>
+                     Curriculums are structured the same way as courses but can be
+                     assigned to specific users.
+                  </p>
+               </div>
             </div>
-            <div class="section-footer">
-              <p>
-                Interested in having us deploy and maintained your app? Contact
-                us now!
-              </p>
+         </div>
+      </section>
+      <!--Technologies section-->
+      <section class="technologies text-center">
+         <div class="container tech-container">
+            <h2 class="">Technologies</h2>
+            <div class="row">
+               <div class="col-lg-6 p-5">
+                  <svg
+                     xmlns="http://www.w3.org/2000/svg"
+                     width="184.891"
+                     height="111.007"
+                     viewBox="0 0 184.891 111.007"
+                     >
+                     <g id="Page-1" transform="translate(0)">
+                        <g id="Black-Next.js" transform="translate(0 0)">
+                           <g id="next-black" transform="translate(0 0)">
+                              <g
+                                 id="EXT-_-Type-something"
+                                 data-name="EXT-+-Type-something"
+                                 transform="translate(0 0)"
+                                 >
+                                 <path
+                                    id="EXT"
+                                    d="M48.942,29.239H83.814V32H52.139v20.76H81.925v2.758H52.139V78.309H84.178v2.758H48.942Zm38,0h3.705l16.419,22.793,16.782-22.793L146.671.287l-37.5,54.14,19.325,26.64h-3.85L107.062,56.823,89.408,81.067H85.631l19.47-26.64ZM129.875,32V29.239h39.74V32H151.306v49.07h-3.2V32Z"
+                                    transform="translate(-5.316 -0.287)"
+                                    />
+                                 <path
+                                    id="Type-something"
+                                    d="M.2,32.632h4l55.1,82.055L36.528,84.46,3.545,36.552,3.4,84.46H.2Z"
+                                    transform="translate(-0.203 -3.68)"
+                                    />
+                              </g>
+                              <path
+                                 id="_.JS"
+                                 data-name=".JS"
+                                 d="M183.263,85.165a1.154,1.154,0,1,0-1.143-1.154A1.122,1.122,0,0,0,183.263,85.165Zm3.141-3.037a3.126,3.126,0,0,0,3.421,3.177,3.211,3.211,0,0,0,3.468-3.541v-7.91h-1.742v7.9c0,1.247-.63,1.914-1.742,1.914a1.559,1.559,0,0,1-1.695-1.542Zm9.167-.1c.124,2,1.8,3.277,4.284,3.277,2.659,0,4.323-1.34,4.323-3.479,0-1.681-.949-2.611-3.25-3.146l-1.236-.3c-1.462-.341-2.053-.8-2.053-1.6,0-1.007.917-1.666,2.294-1.666A2.142,2.142,0,0,1,202.3,76.79H204c-.1-1.883-1.765-3.208-4.043-3.208-2.449,0-4.082,1.325-4.082,3.316,0,1.643.925,2.619,2.954,3.091l1.446.349c1.485.349,2.138.86,2.138,1.712,0,.992-1.026,1.712-2.426,1.712-1.5,0-2.542-.674-2.69-1.735Z"
+                                 transform="translate(-19.286 -7.976)"
+                                 />
+                           </g>
+                        </g>
+                     </g>
+                  </svg>
+                  <p>
+                     We use Next JS on the frontend for fast, efficient, server side
+                     rendered content that is PWA compatible
+                  </p>
+               </div>
+               <div class="col-lg-6 p-5">
+                  <svg
+                     id="magic-horizontal-color-black"
+                     xmlns="http://www.w3.org/2000/svg"
+                     width="266.624"
+                     height="98.379"
+                     viewBox="0 0 266.624 98.379"
+                     >
+                     <path
+                        id="Path_2"
+                        data-name="Path 2"
+                        d="M203.955,81.9h8.4V42.74H200.608L191.1,67.164,181.586,42.74H169.9V81.9h8.336V53.719L189.277,81.9h3.64l11.038-28.181Z"
+                        transform="translate(-58.823 -14.797)"
+                        />
+                     <path
+                        id="Path_3"
+                        data-name="Path 3"
+                        d="M262.517,87.247h7.456V68.93c0-8.161-5.93-10.744-12.388-10.744A18.6,18.6,0,0,0,245.2,62.648l2.818,4.99a11.932,11.932,0,0,1,8.278-3.347c3.757,0,6.223,1.879,6.223,4.756v3.934c-1.879-2.29-5.225-3.464-8.983-3.464-4.52,0-9.863,2.407-9.863,9.041,0,6.341,5.343,9.394,9.863,9.394a11.735,11.735,0,0,0,8.983-3.64Zm0-6.81c-1.233,1.644-3.581,2.466-5.989,2.466-2.936,0-5.343-1.526-5.343-4.168,0-2.7,2.407-4.286,5.343-4.286,2.407,0,4.756.822,5.989,2.466Z"
+                        transform="translate(-84.362 -20.145)"
+                        />
+                     <path
+                        id="Path_4"
+                        data-name="Path 4"
+                        d="M293.663,94.527c3.523,3.112,7.339,4.227,12.211,4.227,6.986,0,15.324-2.642,15.324-13.445V58.891h-7.515v3.64a10.922,10.922,0,0,0-8.748-4.345c-7.162,0-12.505,5.166-12.505,14.443,0,9.452,5.4,14.443,12.505,14.443a11.043,11.043,0,0,0,8.748-4.462v2.877c0,5.577-4.227,7.163-7.809,7.163s-6.576-1-8.865-3.523Zm20.02-17.319a8.259,8.259,0,0,1-6.4,3.229c-4.227,0-7.162-2.936-7.162-7.808s2.936-7.809,7.162-7.809a8.085,8.085,0,0,1,6.4,3.229Z"
+                        transform="translate(-101.243 -20.145)"
+                        />
+                     <path
+                        id="Path_5"
+                        data-name="Path 5"
+                        d="M351.038,48.162a4.462,4.462,0,1,0-4.462-4.462A4.46,4.46,0,0,0,351.038,48.162Zm-3.7,32.525H354.8V52.331h-7.456Z"
+                        transform="translate(-119.989 -13.585)"
+                        />
+                     <path
+                        id="Path_6"
+                        data-name="Path 6"
+                        d="M367.673,73.04c0,8.748,6.282,14.913,15.03,14.913,5.812,0,9.335-2.525,11.214-5.167l-4.873-4.521a7.156,7.156,0,0,1-5.989,3.053c-4.52,0-7.69-3.347-7.69-8.278s3.17-8.219,7.69-8.219a7.013,7.013,0,0,1,5.989,3.053l4.873-4.521c-1.879-2.642-5.4-5.166-11.214-5.166C373.955,58.186,367.673,64.351,367.673,73.04Z"
+                        transform="translate(-127.293 -20.145)"
+                        />
+                     <path
+                        id="Path_7"
+                        data-name="Path 7"
+                        d="M54.973,0A118.406,118.406,0,0,0,69,14.471a118.391,118.391,0,0,0,0,69.437A118.382,118.382,0,0,0,54.973,98.379,118.38,118.38,0,0,0,40.942,83.908,117.661,117.661,0,0,0,46.147,49.19a117.657,117.657,0,0,0-5.205-34.718A118.4,118.4,0,0,0,54.973,0Z"
+                        transform="translate(-14.175 0)"
+                        fill="#6851ff"
+                        />
+                     <path
+                        id="Path_8"
+                        data-name="Path 8"
+                        d="M17.062,88A117.567,117.567,0,0,0,0,78.065,58.835,58.835,0,0,0,2.552,60.871,58.835,58.835,0,0,0,0,43.676,117.569,117.569,0,0,0,17.062,33.74,118.012,118.012,0,0,1,20.2,60.871,118.011,118.011,0,0,1,17.062,88Z"
+                        transform="translate(0 -11.681)"
+                        fill="#6851ff"
+                        />
+                     <path
+                        id="Path_9"
+                        data-name="Path 9"
+                        d="M93.9,60.871A118.01,118.01,0,0,0,97.046,88a117.562,117.562,0,0,1,17.062-9.936,59.207,59.207,0,0,1,0-34.389A117.564,117.564,0,0,1,97.046,33.74,118.011,118.011,0,0,0,93.9,60.871Z"
+                        transform="translate(-32.511 -11.681)"
+                        fill="#6851ff"
+                        />
+                  </svg>
+                  <p>
+                     We use Magic for a passwordless user authentication experience.
+                  </p>
+               </div>
             </div>
-          </div>
-          <div class="col-lg-4 h-100">
-            <div class="title">
-              <h2 class="text-white">Curate</h2>
-              <p>
-                Embed your content into your own custom CMS. A version of Strapi
-                is included in your download.
-              </p>
-            </div>
-            <div class="title-logo">
-              <i class="fas fa-edit fa-6x mb-4"></i>
-            </div>
-            <div class="section-footer">
-              <p>
-                We recommend Vimeo or Youtube to host your videos and any
-                written content can be written directly into your markdown
-                editor.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 h-100">
-            <div class="title">
-              <h2 class="text-white">Sell</h2>
-              <p>Sell your products on a Stripe hosted checkout.</p>
-            </div>
-            <div class="title-logo">
-              <i class="fas fa-shopping-cart fa-6x mb-4"></i>
-            </div>
-            <div class="section-footer">
-              <p>We take no commission and no fees.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--Features section-->
-    <section class="features text-center">
-      <div class="container">
-        <h2 class="mb-5">Features</h2>
-        <!--Column aligment on small screens-->
-        <div class="features-alignment">
-          <div class="row">
-            <div class="col-12 col-lg-4 d-flex flex-row flex-md-column align-items-md-center mb-4">
-              <div class="col-6">
-              <i class="far fa-envelope fa-6x mb-2"></i>
-              
-              <h3 class="mb-4">Articles</h3>
-           </div>
-              <p>
-                Articles can be used to engage your audience on a regular
-                basis.<br /><br />
-                You can write articles in the markdown editor, you can also
-                include image and video embeds
-              </p>
-            </div>
-            <div class="col-12 col-lg-4 d-flex flex-row flex-md-column align-items-md-center mb-4">
-              <div class="col-6">
-              <i class="fas fa-video fa-6x mb-2"></i>
-              <h3 class="mb-4">Courses</h3>
-              </div>
-              <p>
-                Our courses feature allows you to sell courses directly from
-                your app. <br /><br />
-                Courses are structured in chapters and lessons.
-              </p>
-            </div>
-            <div class="col-12 col-lg-4 d-flex flex-row flex-md-column align-items-md-center mb-4">
-              <div class="col-6">
-              <i class="fas fa-user-edit fa-6x mb-2"></i>
-              <h3 class="mb-4">Curriculums</h3>
-              </div>
-              <p>
-                Curriculums allow you to provide personalised coaching, direct
-                to consumer.
-                <br /><br />
-                Curriculums are structured the same way as courses but can be
-                assigned to specific users.
-              </p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--Technologies section-->
-    <section class="technologies text-center">
-      <div class="container tech-container">
-        <h2 class="">Technologies</h2>
-        <div class="row">
-          <div class="col-lg-6 p-5">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="184.891"
-              height="111.007"
-              viewBox="0 0 184.891 111.007"
-            >
-              <g id="Page-1" transform="translate(0)">
-                <g id="Black-Next.js" transform="translate(0 0)">
-                  <g id="next-black" transform="translate(0 0)">
-                    <g
-                      id="EXT-_-Type-something"
-                      data-name="EXT-+-Type-something"
-                      transform="translate(0 0)"
-                    >
-                      <path
-                        id="EXT"
-                        d="M48.942,29.239H83.814V32H52.139v20.76H81.925v2.758H52.139V78.309H84.178v2.758H48.942Zm38,0h3.705l16.419,22.793,16.782-22.793L146.671.287l-37.5,54.14,19.325,26.64h-3.85L107.062,56.823,89.408,81.067H85.631l19.47-26.64ZM129.875,32V29.239h39.74V32H151.306v49.07h-3.2V32Z"
-                        transform="translate(-5.316 -0.287)"
-                      />
-                      <path
-                        id="Type-something"
-                        d="M.2,32.632h4l55.1,82.055L36.528,84.46,3.545,36.552,3.4,84.46H.2Z"
-                        transform="translate(-0.203 -3.68)"
-                      />
-                    </g>
-                    <path
-                      id="_.JS"
-                      data-name=".JS"
-                      d="M183.263,85.165a1.154,1.154,0,1,0-1.143-1.154A1.122,1.122,0,0,0,183.263,85.165Zm3.141-3.037a3.126,3.126,0,0,0,3.421,3.177,3.211,3.211,0,0,0,3.468-3.541v-7.91h-1.742v7.9c0,1.247-.63,1.914-1.742,1.914a1.559,1.559,0,0,1-1.695-1.542Zm9.167-.1c.124,2,1.8,3.277,4.284,3.277,2.659,0,4.323-1.34,4.323-3.479,0-1.681-.949-2.611-3.25-3.146l-1.236-.3c-1.462-.341-2.053-.8-2.053-1.6,0-1.007.917-1.666,2.294-1.666A2.142,2.142,0,0,1,202.3,76.79H204c-.1-1.883-1.765-3.208-4.043-3.208-2.449,0-4.082,1.325-4.082,3.316,0,1.643.925,2.619,2.954,3.091l1.446.349c1.485.349,2.138.86,2.138,1.712,0,.992-1.026,1.712-2.426,1.712-1.5,0-2.542-.674-2.69-1.735Z"
-                      transform="translate(-19.286 -7.976)"
-                    />
-                  </g>
-                </g>
-              </g>
-            </svg>
-            <p>
-              We use Next JS on the frontend for fast, efficient, server side
-              rendered content that is PWA compatible
-            </p>
-          </div>
-          <div class="col-lg-6 p-5">
-            <svg
-              id="magic-horizontal-color-black"
-              xmlns="http://www.w3.org/2000/svg"
-              width="266.624"
-              height="98.379"
-              viewBox="0 0 266.624 98.379"
-            >
-              <path
-                id="Path_2"
-                data-name="Path 2"
-                d="M203.955,81.9h8.4V42.74H200.608L191.1,67.164,181.586,42.74H169.9V81.9h8.336V53.719L189.277,81.9h3.64l11.038-28.181Z"
-                transform="translate(-58.823 -14.797)"
-              />
-              <path
-                id="Path_3"
-                data-name="Path 3"
-                d="M262.517,87.247h7.456V68.93c0-8.161-5.93-10.744-12.388-10.744A18.6,18.6,0,0,0,245.2,62.648l2.818,4.99a11.932,11.932,0,0,1,8.278-3.347c3.757,0,6.223,1.879,6.223,4.756v3.934c-1.879-2.29-5.225-3.464-8.983-3.464-4.52,0-9.863,2.407-9.863,9.041,0,6.341,5.343,9.394,9.863,9.394a11.735,11.735,0,0,0,8.983-3.64Zm0-6.81c-1.233,1.644-3.581,2.466-5.989,2.466-2.936,0-5.343-1.526-5.343-4.168,0-2.7,2.407-4.286,5.343-4.286,2.407,0,4.756.822,5.989,2.466Z"
-                transform="translate(-84.362 -20.145)"
-              />
-              <path
-                id="Path_4"
-                data-name="Path 4"
-                d="M293.663,94.527c3.523,3.112,7.339,4.227,12.211,4.227,6.986,0,15.324-2.642,15.324-13.445V58.891h-7.515v3.64a10.922,10.922,0,0,0-8.748-4.345c-7.162,0-12.505,5.166-12.505,14.443,0,9.452,5.4,14.443,12.505,14.443a11.043,11.043,0,0,0,8.748-4.462v2.877c0,5.577-4.227,7.163-7.809,7.163s-6.576-1-8.865-3.523Zm20.02-17.319a8.259,8.259,0,0,1-6.4,3.229c-4.227,0-7.162-2.936-7.162-7.808s2.936-7.809,7.162-7.809a8.085,8.085,0,0,1,6.4,3.229Z"
-                transform="translate(-101.243 -20.145)"
-              />
-              <path
-                id="Path_5"
-                data-name="Path 5"
-                d="M351.038,48.162a4.462,4.462,0,1,0-4.462-4.462A4.46,4.46,0,0,0,351.038,48.162Zm-3.7,32.525H354.8V52.331h-7.456Z"
-                transform="translate(-119.989 -13.585)"
-              />
-              <path
-                id="Path_6"
-                data-name="Path 6"
-                d="M367.673,73.04c0,8.748,6.282,14.913,15.03,14.913,5.812,0,9.335-2.525,11.214-5.167l-4.873-4.521a7.156,7.156,0,0,1-5.989,3.053c-4.52,0-7.69-3.347-7.69-8.278s3.17-8.219,7.69-8.219a7.013,7.013,0,0,1,5.989,3.053l4.873-4.521c-1.879-2.642-5.4-5.166-11.214-5.166C373.955,58.186,367.673,64.351,367.673,73.04Z"
-                transform="translate(-127.293 -20.145)"
-              />
-              <path
-                id="Path_7"
-                data-name="Path 7"
-                d="M54.973,0A118.406,118.406,0,0,0,69,14.471a118.391,118.391,0,0,0,0,69.437A118.382,118.382,0,0,0,54.973,98.379,118.38,118.38,0,0,0,40.942,83.908,117.661,117.661,0,0,0,46.147,49.19a117.657,117.657,0,0,0-5.205-34.718A118.4,118.4,0,0,0,54.973,0Z"
-                transform="translate(-14.175 0)"
-                fill="#6851ff"
-              />
-              <path
-                id="Path_8"
-                data-name="Path 8"
-                d="M17.062,88A117.567,117.567,0,0,0,0,78.065,58.835,58.835,0,0,0,2.552,60.871,58.835,58.835,0,0,0,0,43.676,117.569,117.569,0,0,0,17.062,33.74,118.012,118.012,0,0,1,20.2,60.871,118.011,118.011,0,0,1,17.062,88Z"
-                transform="translate(0 -11.681)"
-                fill="#6851ff"
-              />
-              <path
-                id="Path_9"
-                data-name="Path 9"
-                d="M93.9,60.871A118.01,118.01,0,0,0,97.046,88a117.562,117.562,0,0,1,17.062-9.936,59.207,59.207,0,0,1,0-34.389A117.564,117.564,0,0,1,97.046,33.74,118.011,118.011,0,0,0,93.9,60.871Z"
-                transform="translate(-32.511 -11.681)"
-                fill="#6851ff"
-              />
-            </svg>
-            <p>
-              We use Magic for a passwordless user authentication experience.
-            </p>
-          </div>
-        </div>
-        <div class="row pb-5">
-          <div class="col-lg-6 p-5">
-            <svg
-              id="Branding"
-              xmlns="http://www.w3.org/2000/svg"
-              width="278.711"
-              height="73.702"
-              viewBox="0 0 278.711 73.702"
-            >
-              <g id="Logo-White-Background" transform="translate(0 0)">
-                <g id="Logo" transform="translate(0)">
-                  <g
-                    id="Monogram"
-                    transform="translate(0 11.283)"
-                    opacity="0.975"
-                  >
-                    <g id="Group_1" data-name="Group 1">
-                      <path
-                        id="Combined-Shape-Copy"
-                        d="M63.845,42.45V22.2A1.306,1.306,0,0,0,62.54,20.9H42.4V0H83.338a1.306,1.306,0,0,1,1.306,1.306V42.45Z"
-                        transform="translate(-22.516)"
-                        fill="#8e75ff"
+            <div class="row pb-5">
+               <div class="col-lg-6 p-5">
+                  <svg
+                     id="Branding"
+                     xmlns="http://www.w3.org/2000/svg"
+                     width="278.711"
+                     height="73.702"
+                     viewBox="0 0 278.711 73.702"
+                     >
+                     <g id="Logo-White-Background" transform="translate(0 0)">
+                        <g id="Logo" transform="translate(0)">
+                           <g
+                              id="Monogram"
+                              transform="translate(0 11.283)"
+                              opacity="0.975"
+                              >
+                              <g id="Group_1" data-name="Group 1">
+                                 <path
+                                    id="Combined-Shape-Copy"
+                                    d="M63.845,42.45V22.2A1.306,1.306,0,0,0,62.54,20.9H42.4V0H83.338a1.306,1.306,0,0,1,1.306,1.306V42.45Z"
+                                    transform="translate(-22.516)"
+                                    fill="#8e75ff"
+                                    fill-rule="evenodd"
+                                    />
+                                 <path
+                                    id="Rectangle-Copy-6"
+                                    d="M21.752,0V20.9H2.524a.653.653,0,0,1-.463-1.113Z"
+                                    transform="translate(-1.871)"
+                                    fill="#8e75ff"
+                                    fill-rule="evenodd"
+                                    opacity="0.405"
+                                    />
+                                 <path
+                                    id="Rectangle-Copy-7"
+                                    d="M20.8.653V19.97H0L19.683.192A.653.653,0,0,1,20.8.653Z"
+                                    transform="translate(62.128 62.419) rotate(180)"
+                                    fill="#8e75ff"
+                                    fill-rule="evenodd"
+                                    opacity="0.405"
+                                    />
+                                 <path
+                                    id="Rectangle-Copy-8"
+                                    d="M42.4,42.6h20.8a.653.653,0,0,1,.653.653v20.9H43.7A1.306,1.306,0,0,1,42.4,62.845Z"
+                                    transform="translate(-22.516 -21.701)"
+                                    fill="#8e75ff"
+                                    fill-rule="evenodd"
+                                    opacity="0.405"
+                                    />
+                              </g>
+                           </g>
+                           <path
+                              id="strapi"
+                              d="M231.214,25.707h-8.226V41.3a3.713,3.713,0,0,0,.972,2.848,4.454,4.454,0,0,0,2.841,1.012,39.762,39.762,0,0,0,4.17-.014l.232-.012a.221.221,0,0,1,.232.209s0,.008,0,.011V53.69a.221.221,0,0,1-.2.219l-.152.017q-9.665,1.033-13.668-1.912-4.074-3-4.074-10.718V25.707h-6.283a.221.221,0,0,1-.221-.221V16.634a.221.221,0,0,1,.221-.221h6.283V10.222a.442.442,0,0,1,.263-.4l9.07-4a.221.221,0,0,1,.31.2v10.4h8.226a.221.221,0,0,1,.221.221v8.852A.221.221,0,0,1,231.214,25.707Zm17.706-2.848a10.091,10.091,0,0,1,4.448-5.4,13.4,13.4,0,0,1,6.273-1.786q.153-.006.418-.01a.221.221,0,0,1,.224.217s0,0,0,0V26.053a.364.364,0,0,1-.363.363h-.033a11.254,11.254,0,0,0-7.49,1.84q-3.476,2.323-3.476,7.72V53.667a.221.221,0,0,1-.221.221h-9.2a.221.221,0,0,1-.221-.221V16.634a.221.221,0,0,1,.221-.221h9.2a.221.221,0,0,1,.221.221Zm45.6-6.445h9.2a.221.221,0,0,1,.221.221V53.667a.221.221,0,0,1-.221.221h-9.2a.221.221,0,0,1-.221-.221v-4.2q-4.336,5.471-12.185,5.471A16.916,16.916,0,0,1,269.29,49.2a19.842,19.842,0,0,1-5.345-14.053A19.842,19.842,0,0,1,269.29,21.1a16.916,16.916,0,0,1,12.82-5.733q7.849,0,12.185,5.471v-4.2A.221.221,0,0,1,294.515,16.414ZM276.5,42.8a10.827,10.827,0,0,0,14.838-.037,10.312,10.312,0,0,0,2.953-7.607,10.312,10.312,0,0,0-2.953-7.607,10.07,10.07,0,0,0-7.438-2.96,9.946,9.946,0,0,0-7.4,2.96,10.384,10.384,0,0,0-2.915,7.607A10.512,10.512,0,0,0,276.5,42.8Zm56.422-27.431A17,17,0,0,1,345.82,21.1a19.842,19.842,0,0,1,5.345,14.053A19.842,19.842,0,0,1,345.82,49.2a17,17,0,0,1-12.895,5.733q-7.849,0-12.11-5.471V68.656a.221.221,0,0,1-.221.221h-9.2a.221.221,0,0,1-.221-.221V16.634a.221.221,0,0,1,.221-.221h9.2a.221.221,0,0,1,.221.221v4.2Q325.077,15.364,332.926,15.364ZM323.731,42.8a10.827,10.827,0,0,0,14.838-.037,10.312,10.312,0,0,0,2.953-7.607,10.312,10.312,0,0,0-2.953-7.607,10.071,10.071,0,0,0-7.438-2.96,9.946,9.946,0,0,0-7.4,2.96,10.384,10.384,0,0,0-2.915,7.607A10.512,10.512,0,0,0,323.731,42.8Zm37.961-30.878a5.666,5.666,0,0,1-4.149-1.761A5.7,5.7,0,0,1,355.787,6a5.819,5.819,0,0,1,1.757-4.2A5.609,5.609,0,0,1,361.692,0a5.692,5.692,0,0,1,4.223,1.8A5.819,5.819,0,0,1,367.673,6a5.7,5.7,0,0,1-1.757,4.16A5.751,5.751,0,0,1,361.692,11.917Zm-4.784,41.75V16.634a.221.221,0,0,1,.221-.221h9.2a.221.221,0,0,1,.221.221V53.667a.221.221,0,0,1-.221.221h-9.2A.221.221,0,0,1,356.908,53.667ZM184.191,27.056q0,1.5,1.981,2.436a26.368,26.368,0,0,0,4.822,1.649,49.74,49.74,0,0,1,5.681,1.8,11.03,11.03,0,0,1,4.822,3.635,10.067,10.067,0,0,1,1.981,6.371,10.3,10.3,0,0,1-4.3,8.881,17.821,17.821,0,0,1-10.727,3.11q-11.254,0-15.507-8.523-.037-.074-.093-.19a.221.221,0,0,1,.1-.295l.006,0,8.111-3.6a.442.442,0,0,1,.571.2l0,.007q1.895,3.638,6.8,3.638,5.158,0,5.158-3.223,0-1.5-1.981-2.436a28.226,28.226,0,0,0-4.822-1.686,50.316,50.316,0,0,1-5.681-1.874,11.666,11.666,0,0,1-4.822-3.56,9.366,9.366,0,0,1-1.981-6.108A10.479,10.479,0,0,1,178.4,18.55a15.943,15.943,0,0,1,10.129-3.185,16.894,16.894,0,0,1,8.3,2.061,14.657,14.657,0,0,1,5.461,5.083q.107.168.287.473a.221.221,0,0,1-.078.3l-.023.012L194.339,26.9a.32.32,0,0,1-.4-.118,6.051,6.051,0,0,0-5.414-2.8,5.466,5.466,0,0,0-3.1.824A2.571,2.571,0,0,0,184.191,27.056Z"
+                              transform="translate(-88.962 0)"
+                              fill="#2f2e8b"
+                              />
+                        </g>
+                     </g>
+                  </svg>
+                  <p>We Use Strapi for a Headless CMS running on Node JS.</p>
+               </div>
+               <div class="col-lg-6 p-5">
+                  <svg
+                     id="Stripe_Logo__revised_2016"
+                     data-name="Stripe_Logo,_revised_2016"
+                     xmlns="http://www.w3.org/2000/svg"
+                     width="170.314"
+                     height="70.87"
+                     viewBox="0 0 170.314 70.87"
+                     >
+                     <path
+                        id="Path_10"
+                        data-name="Path 10"
+                        d="M374.851,89.268c0-12.111-5.866-21.668-17.079-21.668-11.26,0-18.072,9.557-18.072,21.573,0,14.24,8.043,21.431,19.586,21.431a26.379,26.379,0,0,0,13.1-3.075V98.067a25.122,25.122,0,0,1-11.591,2.6c-4.589,0-8.658-1.609-9.178-7.191h23.134C374.756,92.863,374.851,90.4,374.851,89.268ZM351.48,84.773c0-5.346,3.264-7.57,6.245-7.57,2.886,0,5.961,2.224,5.961,7.57Z"
+                        transform="translate(-204.537 -52.65)"
+                        fill="#635bff"
                         fill-rule="evenodd"
-                      />
-                      <path
-                        id="Rectangle-Copy-6"
-                        d="M21.752,0V20.9H2.524a.653.653,0,0,1-.463-1.113Z"
-                        transform="translate(-1.871)"
-                        fill="#8e75ff"
+                        />
+                     <path
+                        id="Path_11"
+                        data-name="Path 11"
+                        d="M278.5,67.6a13.365,13.365,0,0,0-9.273,3.69l-.615-2.933H258.2V123.52l11.827-2.507.047-13.389a13.323,13.323,0,0,0,8.374,2.98c8.468,0,16.18-6.813,16.18-21.81C294.581,75.075,286.775,67.6,278.5,67.6Zm-2.839,32.6a7.072,7.072,0,0,1-5.583-2.224l-.047-17.552a7.041,7.041,0,0,1,5.63-2.318c4.305,0,7.286,4.826,7.286,11.023C282.943,95.465,280.01,100.2,275.657,100.2Z"
+                        transform="translate(-161.594 -52.65)"
+                        fill="#635bff"
                         fill-rule="evenodd"
-                        opacity="0.405"
-                      />
-                      <path
-                        id="Rectangle-Copy-7"
-                        d="M20.8.653V19.97H0L19.683.192A.653.653,0,0,1,20.8.653Z"
-                        transform="translate(62.128 62.419) rotate(180)"
-                        fill="#8e75ff"
+                        />
+                     <path
+                        id="Path_12"
+                        data-name="Path 12"
+                        d="M223.8,48.159,235.675,45.6V36L223.8,38.507Z"
+                        transform="translate(-143.469 -36)"
+                        fill="#635bff"
                         fill-rule="evenodd"
-                        opacity="0.405"
-                      />
-                      <path
-                        id="Rectangle-Copy-8"
-                        d="M42.4,42.6h20.8a.653.653,0,0,1,.653.653v20.9H43.7A1.306,1.306,0,0,1,42.4,62.845Z"
-                        transform="translate(-22.516 -21.701)"
-                        fill="#8e75ff"
+                        />
+                     <rect
+                        id="Rectangle_9"
+                        data-name="Rectangle 9"
+                        width="11.875"
+                        height="41.396"
+                        transform="translate(80.331 15.754)"
+                        fill="#635bff"
+                        />
+                     <path
+                        id="Path_13"
+                        data-name="Path 13"
+                        d="M184.676,72.256l-.757-3.5H173.7v41.4h11.827V82.1c2.791-3.643,7.522-2.98,8.989-2.46V68.755C193,68.188,187.467,67.147,184.676,72.256Z"
+                        transform="translate(-117.071 -53.001)"
+                        fill="#635bff"
                         fill-rule="evenodd"
-                        opacity="0.405"
-                      />
-                    </g>
-                  </g>
-                  <path
-                    id="strapi"
-                    d="M231.214,25.707h-8.226V41.3a3.713,3.713,0,0,0,.972,2.848,4.454,4.454,0,0,0,2.841,1.012,39.762,39.762,0,0,0,4.17-.014l.232-.012a.221.221,0,0,1,.232.209s0,.008,0,.011V53.69a.221.221,0,0,1-.2.219l-.152.017q-9.665,1.033-13.668-1.912-4.074-3-4.074-10.718V25.707h-6.283a.221.221,0,0,1-.221-.221V16.634a.221.221,0,0,1,.221-.221h6.283V10.222a.442.442,0,0,1,.263-.4l9.07-4a.221.221,0,0,1,.31.2v10.4h8.226a.221.221,0,0,1,.221.221v8.852A.221.221,0,0,1,231.214,25.707Zm17.706-2.848a10.091,10.091,0,0,1,4.448-5.4,13.4,13.4,0,0,1,6.273-1.786q.153-.006.418-.01a.221.221,0,0,1,.224.217s0,0,0,0V26.053a.364.364,0,0,1-.363.363h-.033a11.254,11.254,0,0,0-7.49,1.84q-3.476,2.323-3.476,7.72V53.667a.221.221,0,0,1-.221.221h-9.2a.221.221,0,0,1-.221-.221V16.634a.221.221,0,0,1,.221-.221h9.2a.221.221,0,0,1,.221.221Zm45.6-6.445h9.2a.221.221,0,0,1,.221.221V53.667a.221.221,0,0,1-.221.221h-9.2a.221.221,0,0,1-.221-.221v-4.2q-4.336,5.471-12.185,5.471A16.916,16.916,0,0,1,269.29,49.2a19.842,19.842,0,0,1-5.345-14.053A19.842,19.842,0,0,1,269.29,21.1a16.916,16.916,0,0,1,12.82-5.733q7.849,0,12.185,5.471v-4.2A.221.221,0,0,1,294.515,16.414ZM276.5,42.8a10.827,10.827,0,0,0,14.838-.037,10.312,10.312,0,0,0,2.953-7.607,10.312,10.312,0,0,0-2.953-7.607,10.07,10.07,0,0,0-7.438-2.96,9.946,9.946,0,0,0-7.4,2.96,10.384,10.384,0,0,0-2.915,7.607A10.512,10.512,0,0,0,276.5,42.8Zm56.422-27.431A17,17,0,0,1,345.82,21.1a19.842,19.842,0,0,1,5.345,14.053A19.842,19.842,0,0,1,345.82,49.2a17,17,0,0,1-12.895,5.733q-7.849,0-12.11-5.471V68.656a.221.221,0,0,1-.221.221h-9.2a.221.221,0,0,1-.221-.221V16.634a.221.221,0,0,1,.221-.221h9.2a.221.221,0,0,1,.221.221v4.2Q325.077,15.364,332.926,15.364ZM323.731,42.8a10.827,10.827,0,0,0,14.838-.037,10.312,10.312,0,0,0,2.953-7.607,10.312,10.312,0,0,0-2.953-7.607,10.071,10.071,0,0,0-7.438-2.96,9.946,9.946,0,0,0-7.4,2.96,10.384,10.384,0,0,0-2.915,7.607A10.512,10.512,0,0,0,323.731,42.8Zm37.961-30.878a5.666,5.666,0,0,1-4.149-1.761A5.7,5.7,0,0,1,355.787,6a5.819,5.819,0,0,1,1.757-4.2A5.609,5.609,0,0,1,361.692,0a5.692,5.692,0,0,1,4.223,1.8A5.819,5.819,0,0,1,367.673,6a5.7,5.7,0,0,1-1.757,4.16A5.751,5.751,0,0,1,361.692,11.917Zm-4.784,41.75V16.634a.221.221,0,0,1,.221-.221h9.2a.221.221,0,0,1,.221.221V53.667a.221.221,0,0,1-.221.221h-9.2A.221.221,0,0,1,356.908,53.667ZM184.191,27.056q0,1.5,1.981,2.436a26.368,26.368,0,0,0,4.822,1.649,49.74,49.74,0,0,1,5.681,1.8,11.03,11.03,0,0,1,4.822,3.635,10.067,10.067,0,0,1,1.981,6.371,10.3,10.3,0,0,1-4.3,8.881,17.821,17.821,0,0,1-10.727,3.11q-11.254,0-15.507-8.523-.037-.074-.093-.19a.221.221,0,0,1,.1-.295l.006,0,8.111-3.6a.442.442,0,0,1,.571.2l0,.007q1.895,3.638,6.8,3.638,5.158,0,5.158-3.223,0-1.5-1.981-2.436a28.226,28.226,0,0,0-4.822-1.686,50.316,50.316,0,0,1-5.681-1.874,11.666,11.666,0,0,1-4.822-3.56,9.366,9.366,0,0,1-1.981-6.108A10.479,10.479,0,0,1,178.4,18.55a15.943,15.943,0,0,1,10.129-3.185,16.894,16.894,0,0,1,8.3,2.061,14.657,14.657,0,0,1,5.461,5.083q.107.168.287.473a.221.221,0,0,1-.078.3l-.023.012L194.339,26.9a.32.32,0,0,1-.4-.118,6.051,6.051,0,0,0-5.414-2.8,5.466,5.466,0,0,0-3.1.824A2.571,2.571,0,0,0,184.191,27.056Z"
-                    transform="translate(-88.962 0)"
-                    fill="#2f2e8b"
-                  />
-                </g>
-              </g>
-            </svg>
-            <p>We Use Strapi for a Headless CMS running on Node JS.</p>
-          </div>
-          <div class="col-lg-6 p-5">
-            <svg
-              id="Stripe_Logo__revised_2016"
-              data-name="Stripe_Logo,_revised_2016"
-              xmlns="http://www.w3.org/2000/svg"
-              width="170.314"
-              height="70.87"
-              viewBox="0 0 170.314 70.87"
-            >
-              <path
-                id="Path_10"
-                data-name="Path 10"
-                d="M374.851,89.268c0-12.111-5.866-21.668-17.079-21.668-11.26,0-18.072,9.557-18.072,21.573,0,14.24,8.043,21.431,19.586,21.431a26.379,26.379,0,0,0,13.1-3.075V98.067a25.122,25.122,0,0,1-11.591,2.6c-4.589,0-8.658-1.609-9.178-7.191h23.134C374.756,92.863,374.851,90.4,374.851,89.268ZM351.48,84.773c0-5.346,3.264-7.57,6.245-7.57,2.886,0,5.961,2.224,5.961,7.57Z"
-                transform="translate(-204.537 -52.65)"
-                fill="#635bff"
-                fill-rule="evenodd"
-              />
-              <path
-                id="Path_11"
-                data-name="Path 11"
-                d="M278.5,67.6a13.365,13.365,0,0,0-9.273,3.69l-.615-2.933H258.2V123.52l11.827-2.507.047-13.389a13.323,13.323,0,0,0,8.374,2.98c8.468,0,16.18-6.813,16.18-21.81C294.581,75.075,286.775,67.6,278.5,67.6Zm-2.839,32.6a7.072,7.072,0,0,1-5.583-2.224l-.047-17.552a7.041,7.041,0,0,1,5.63-2.318c4.305,0,7.286,4.826,7.286,11.023C282.943,95.465,280.01,100.2,275.657,100.2Z"
-                transform="translate(-161.594 -52.65)"
-                fill="#635bff"
-                fill-rule="evenodd"
-              />
-              <path
-                id="Path_12"
-                data-name="Path 12"
-                d="M223.8,48.159,235.675,45.6V36L223.8,38.507Z"
-                transform="translate(-143.469 -36)"
-                fill="#635bff"
-                fill-rule="evenodd"
-              />
-              <rect
-                id="Rectangle_9"
-                data-name="Rectangle 9"
-                width="11.875"
-                height="41.396"
-                transform="translate(80.331 15.754)"
-                fill="#635bff"
-              />
-              <path
-                id="Path_13"
-                data-name="Path 13"
-                d="M184.676,72.256l-.757-3.5H173.7v41.4h11.827V82.1c2.791-3.643,7.522-2.98,8.989-2.46V68.755C193,68.188,187.467,67.147,184.676,72.256Z"
-                transform="translate(-117.071 -53.001)"
-                fill="#635bff"
-                fill-rule="evenodd"
-              />
-              <path
-                id="Path_14"
-                data-name="Path 14"
-                d="M133.991,47.6l-11.544,2.46L122.4,87.955a11.887,11.887,0,0,0,12.253,12.159,18.272,18.272,0,0,0,8.279-1.561v-9.6c-1.514.615-8.989,2.791-8.989-4.211V67.943h8.989V57.866h-8.989Z"
-                transform="translate(-90.04 -42.112)"
-                fill="#635bff"
-                fill-rule="evenodd"
-              />
-              <path
-                id="Path_15"
-                data-name="Path 15"
-                d="M65.969,80.421c0-1.845,1.514-2.555,4.021-2.555a26.388,26.388,0,0,1,11.733,3.028V69.776A31.2,31.2,0,0,0,69.991,67.6C60.387,67.6,54,72.615,54,80.989c0,13.057,17.978,10.976,17.978,16.606,0,2.176-1.892,2.886-4.542,2.886-3.927,0-8.941-1.609-12.915-3.785v11.26a32.8,32.8,0,0,0,12.915,2.7c9.84,0,16.606-4.873,16.606-13.341C83.994,83.212,65.969,85.72,65.969,80.421Z"
-                transform="translate(-54 -52.65)"
-                fill="#635bff"
-                fill-rule="evenodd"
-              />
-            </svg>
-            <p>We use Stripe for secure payments with the Stripe Checkout.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Demo Section -->
-    <section id="demo">
-      <div class="container text-center p-4">
-        <div class="row py-5">
-          <div class="col-lg-6 my-auto">
-            <h2>Try it out!</h2>
-            <div class="py-4">
-              <p>
-                This is a demo of our app. It is currently a work in progress
-                but the Magic Login and Stripe Checkout for courses is working
-                in test mode.
-              </p>
-              <p>
-                Some of the features in the works will include scheduling for
-                curriculum and consulations calls.
-              </p>
-              <p>Our intent is to release this project as an open source project to help provide atheltes with a platform to monetise their skills.</p>
-              <a href="https://demo.hookgrip.tech/" target="_blank">If you would like to view the entire site, click here!</a>
+                        />
+                     <path
+                        id="Path_14"
+                        data-name="Path 14"
+                        d="M133.991,47.6l-11.544,2.46L122.4,87.955a11.887,11.887,0,0,0,12.253,12.159,18.272,18.272,0,0,0,8.279-1.561v-9.6c-1.514.615-8.989,2.791-8.989-4.211V67.943h8.989V57.866h-8.989Z"
+                        transform="translate(-90.04 -42.112)"
+                        fill="#635bff"
+                        fill-rule="evenodd"
+                        />
+                     <path
+                        id="Path_15"
+                        data-name="Path 15"
+                        d="M65.969,80.421c0-1.845,1.514-2.555,4.021-2.555a26.388,26.388,0,0,1,11.733,3.028V69.776A31.2,31.2,0,0,0,69.991,67.6C60.387,67.6,54,72.615,54,80.989c0,13.057,17.978,10.976,17.978,16.606,0,2.176-1.892,2.886-4.542,2.886-3.927,0-8.941-1.609-12.915-3.785v11.26a32.8,32.8,0,0,0,12.915,2.7c9.84,0,16.606-4.873,16.606-13.341C83.994,83.212,65.969,85.72,65.969,80.421Z"
+                        transform="translate(-54 -52.65)"
+                        fill="#635bff"
+                        fill-rule="evenodd"
+                        />
+                  </svg>
+                  <p>We use Stripe for secure payments with the Stripe Checkout.</p>
+               </div>
             </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="smartphone">
-              <div class="content">
-                <iframe
-                  src="https://demo.hookgrip.tech/"
-                  style="width: 100%; border: none; height: 100%"
-                >
-                </iframe>
-              </div>
+         </div>
+      </section>
+      <!-- Demo Section -->
+      <section id="demo">
+         <div class="container text-center p-4">
+            <div class="row py-5">
+               <div class="col-lg-6 my-auto">
+                  <h2>Try it out!</h2>
+                  <div class="py-4">
+                     <p>
+                        This is a demo of our app. It is currently a work in progress
+                        but the Magic Login and Stripe Checkout for courses is working
+                        in test mode.
+                     </p>
+                     <p>
+                        Some of the features in the works will include scheduling for
+                        curriculum and consulations calls.
+                     </p>
+                     <p>Our intent is to release this project as an open source project to help provide atheltes with a platform to monetise their skills.</p>
+                     <a href="https://demo.hookgrip.tech/" target="_blank">If you would like to view the entire site, click here!</a>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="smartphone">
+                     <div class="content">
+                        <iframe
+                           src="https://demo.hookgrip.tech/"
+                           style="width: 100%; border: none; height: 100%"
+                           >
+                        </iframe>
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--Footer with social links-->
-    <footer class="footer text-center">
-      <div class="container">
-        <div class="pt-4">
-          <p>&copy; Hook Grip Tech 2021</p>
-        </div>
-        <div class="social-links">
-          <a href="https://www.instagram.com/" target="_blank"
-            ><i class="fab fa-instagram fa-lg"></i
-          ></a>
-          <a href="https://www.linkedin.com/" target="_blank"
-            ><i class="fab fa-linkedin fa-lg"></i
-          ></a>
-          <a href="https://www.youtube.com/" target="_blank"
-            ><i class="fab fa-youtube fa-lg"></i
-          ></a>
-        </div>
-      </div>
-    </footer>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      //jQuery for changing header background onScroll
-      $(function () {
-        var header = $("#topNav");
-        $(window).scroll(function () {
-          var scroll = $(window).scrollTop();
-
-          if (scroll >= 200) {
-            header.removeClass("bg-clear").addClass("bg-dark");
-          } else {
-            header.removeClass("bg-dark").addClass("bg-clear");
-          }
-        });
-      });
-
-      //jQuery to collapse navbar when link is clicked
-      $(".navbar-nav>li>a").on("click", function () {
-        $(".navbar-collapse").collapse("hide");
-      });
-    </script>
-  </body>
-</html>
+         </div>
+      </section>
+      <!--Footer with social links-->
+      <footer class="footer text-center">
+         <div class="container">
+            <div class="pt-4">
+               <p>&copy; Hook Grip Tech 2021</p>
+            </div>
+            <div class="social-links">
+               <a href="https://www.instagram.com/" target="_blank"
+                  ><i class="fab fa-instagram fa-lg"></i
+                  ></a>
+               <a href="https://www.linkedin.com/" target="_blank"
+                  ><i class="fab fa-linkedin fa-lg"></i
+                  ></a>
+               <a href="https://www.youtube.com/" target="_blank"
+                  ><i class="fab fa-youtube fa-lg"></i
+                  ></a>
+            </div>
+         </div>
+      </footer>
+      <script
+         src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+         crossorigin="anonymous"
+         ></script>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+         crossorigin="anonymous"
+         ></script>
+      <script
+         src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+         crossorigin="anonymous"
+         ></script>
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+         crossorigin="anonymous"
+         />
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+         crossorigin="anonymous"
+         ></script>
+      <script>
+         //jQuery for changing header background onScroll
+         $(function () {
+           var header = $("#topNav");
+           $(window).scroll(function () {
+             var scroll = $(window).scrollTop();
+         
+             if (scroll >= 200) {
+               header.removeClass("bg-clear").addClass("bg-dark");
+             } else {
+               header.removeClass("bg-dark").addClass("bg-clear");
+             }
+           });
+         });
+         
+         //jQuery to collapse navbar when link is clicked
+         $(".navbar-nav>li>a").on("click", function () {
+           $(".navbar-collapse").collapse("hide");
+         });
+      </script>
+   </body>
+</html><!DOCTYPE html>
