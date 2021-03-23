@@ -208,12 +208,24 @@ body {
 
 @media(max-width: 992px){
   .smartphone{
-    width: 352px;
-    height: 640px
+    width: 332px;
+    height: 620px
   }
 
   .smartphone .content{
-    width: 320px;
-    height: 520px;
+    width: 300px;
+    height: 500px;
+  }
+}
+
+@media(max-width: 332px){
+  .smartphone{
+    width: 292px;
+    height: 580px
+  }
+
+  .smartphone .content{
+    width: 260px;
+    height: 460px;
   }
 }
