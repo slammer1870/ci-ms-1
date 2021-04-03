@@ -1,5 +1,5 @@
 # Hook Grip Tech Website
-![amiresponsonsive JPG](https://github.com/slammer1870/ci-ms-1/tree/main/assets/img/amiresponsive.jpg?raw=true)
+![amiresponsonsive JPG](https://github.com/slammer1870/ci-ms-1/blob/main/assets/img/amiresponsive.jpg)
 Code Institute Milestone 1 Project
 
 ## User Experience
