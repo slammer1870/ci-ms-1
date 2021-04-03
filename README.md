@@ -1,4 +1,5 @@
-# ci-ms-1
+# Hook Grip Tech Website
+![amiresponsonsive JPG](https://github.com/slammer1870/ci-ms-1/blob/main/assets/img/amiresponsive.jpg)
 Code Institute Milestone 1 Project
 
 ## User Experience
@@ -51,6 +52,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
+## References
+The mobile phone graphic was built with CSS from W3Schools [Device Look](w3schools.com/howto/howto_css_devices.asp)
+
+All Icons are from [Font Awesome:](https://fontawesome.com/)
 
 ## Deployment
 

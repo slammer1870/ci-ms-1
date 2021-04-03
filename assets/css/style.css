@@ -159,7 +159,7 @@ body {
   padding: 1rem;
 }
 
-/* The device with borders */
+/* The device with borders, This CSS is from W3Schools */
 .smartphone {
   position: relative;
   width: 420px;
