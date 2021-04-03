@@ -1,4 +1,4 @@
-# ci-ms-1
+# Hook Grip Tech Website
 Code Institute Milestone 1 Project
 
 ## User Experience
