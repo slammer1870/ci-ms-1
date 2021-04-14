@@ -22,9 +22,9 @@ The hero image is a high quality image with a CSS gradient overlay to incentivis
 ### Wireframes
 The wireframes for this project were mocked up with Adobe XD
 
-[Mobile Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/Wireframes/mobile-wireframe.png)
+[Mobile Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/wireframes/mobile-wireframe.png)
 
-[Desktop Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/Wireframes/web-wireframe.png)
+[Desktop Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/wireframes/web-wireframe.png)
 
 ## Features
 Single page, fully responsive with in interacitve iframe to demo the product.
@@ -36,7 +36,7 @@ Single page, fully responsive with in interacitve iframe to demo the product.
 - Javascript
 
 ### Frameworks, Libraries & Programs Used
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 5:](https://getbootstrap.com/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Montserrat' font into the style.css file which is used on all pages throughout the project.
@@ -58,7 +58,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
-I performed a lighthouse test using the Chrome Dev Tools. 
+I performed a lighthouse test using the Chrome Dev Tools. There were some best practice issues to be found as a consequence of using jQuery and some of the operation of the content within the iFrame logging errors and issues to the console. [Lighhouse Report](https://github.com/slammer1870/ci-ms-1/blob/main/assets/testing/lighthouse-report.pdf)
 
 ## References
 The mobile phone graphic was built with CSS from W3Schools [Device Look](w3schools.com/howto/howto_css_devices.asp)
