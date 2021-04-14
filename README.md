@@ -48,6 +48,8 @@ Single page, fully responsive with in interacitve iframe to demo the product.
     - Git was used for version control by utilizing the VSCode plugin to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
+1. [Formspree:] (https://formspree.io/)
+    - The Formspree API was used for handling form submissions.
 
 ## Testing
 
