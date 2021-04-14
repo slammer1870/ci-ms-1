@@ -36,7 +36,7 @@ Single page, fully responsive with in interacitve iframe to demo the product.
 - Javascript
 
 ### Frameworks, Libraries & Programs Used
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 5:](https://getbootstrap.com/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Montserrat' font into the style.css file which is used on all pages throughout the project.
