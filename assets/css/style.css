@@ -82,6 +82,19 @@ body {
   }
 }
 
+@media (max-width: 479px) {
+  /* start of phone styles */
+  .masthead{
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.3) 0%,
+      rgba(0, 0, 0, 0.7) 75%,
+      #000000 100%
+    ),
+    url(../img/mobile-armbar.jpg);
+  }
+  }
+
 #headerText {
   max-width: 37.5rem;
 }
