@@ -65,6 +65,8 @@ The mobile phone graphic was built with CSS from W3Schools [Device Look](w3schoo
 
 All Icons are from [Font Awesome:](https://fontawesome.com/)
 
+The Hero Image is from [MaggieLeft](https://maggieleft.com/)
+
 ## Deployment
 
 The project was deployed to Github Pages by adding a 'gh-pages' branch to the github repo. I then configured a custom domain using the DNS records on GoDaddy where the domain was purchased.
