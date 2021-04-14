@@ -22,6 +22,10 @@ The hero image is a high quality image with a CSS gradient overlay to incentivis
 ### Wireframes
 The wireframes for this project were mocked up with Adobe XD
 
+[Mobile Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/Wireframes/mobile-wireframe.png)
+
+[Desktop Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/Wireframes/web-wireframe.png)
+
 ## Features
 Single page, fully responsive with in interacitve iframe to demo the product.
 
@@ -51,6 +55,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+I performed a lighthouse test using the Chrome Dev Tools. 
 
 ## References
 The mobile phone graphic was built with CSS from W3Schools [Device Look](w3schools.com/howto/howto_css_devices.asp)
