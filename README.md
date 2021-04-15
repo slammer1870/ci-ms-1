@@ -67,6 +67,7 @@ The project was deployed to GitHub Pages using the following steps...
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
 6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+7. A custom domain can be configured by adding a custom URL and configuring the DNS Records in your web hosting platform.
 
 ### Forking the GitHub Repository
 
