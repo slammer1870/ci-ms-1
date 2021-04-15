@@ -31,7 +31,7 @@ The wireframes for this project were mocked up with Adobe XD
 [404 Mobile Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/Wireframes/404mobile-wireframe.png)
 
 ## Features
-Single page, fully responsive with in interacitve iframe to demo the product.
+Single page, fully responsive with in interacitve iframe to demo the product and a contact form.
 
 ## Technologies Used
 ### Languages
