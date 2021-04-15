@@ -22,9 +22,13 @@ The hero image is a high quality image with a CSS gradient overlay to incentivis
 ### Wireframes
 The wireframes for this project were mocked up with Adobe XD
 
-[Mobile Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/wireframes/mobile-wireframe.png)
+[Mobile Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/Wireframes/mobile-wireframe.png)
 
-[Desktop Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/wireframes/web-wireframe.png)
+[Desktop Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/Wireframes/web-wireframe.png)
+
+[404 Desktop Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/Wireframes/404desktop-wireframe.png)
+
+[404 Mobile Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/Wireframes/404mobile-wireframe.png)
 
 ## Features
 Single page, fully responsive with in interacitve iframe to demo the product.
@@ -59,7 +63,6 @@ The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
@@ -106,6 +109,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
 I performed a lighthouse test using the Chrome Dev Tools. There were some best practice issues to be found as a consequence of using jQuery and some of the operation of the content within the iFrame logging errors and issues to the console. [Lighhouse Report](https://github.com/slammer1870/ci-ms-1/blob/main/assets/testing/lighthouse-report.pdf)
+
+### User Experience Testing
+
+I tested the site on multiple browsers such as Chrome and Safari as well as testing on multiple devices including iOS and Android phones.
+
+#### Testing Results
+
+- Breakpoints: The page loads with the correct breakpoints. Note the varying layout for the different elements chanding from lists to grips depending on screen width
+- Modal Usage: The modal is designed to be centered on the screen with mobile devices viewing a modal that takes up the majority of the screen and desktop screens viewing a small, centered modal
+- iFrame Layout: The iFrame is design to be viewable on both mobile and desktop devices with a responive layout as well as a responsive iFrame size all the way down to XS screens
+- External link: All external links are functional and open in a new tab
+- Blocking elements: Bootsrap's default UX design for their navbar is to remain open after a link is clicked if the link points to a section on the same page, I didn't like this so I added some jQuery to remove it.
+- Tranisions: With the hero image the navbar needs to be transaprent for the image to be viewed, I added some jQuery to transition the navbar to a solid color as the page is scrolled by the user.
+- 404 errors: I initially had the oversight of forgetting to add in a 404 page. This was rectified with a simple 404 page I designed.
 
 ## References
 The mobile phone graphic was built with CSS from W3Schools [Device Look](w3schools.com/howto/howto_css_devices.asp)
