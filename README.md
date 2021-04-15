@@ -22,13 +22,13 @@ The hero image is a high quality image with a CSS gradient overlay to incentivis
 ### Wireframes
 The wireframes for this project were mocked up with Adobe XD
 
-[Mobile Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/wireframes/mobile-wireframe.png)
+[Mobile Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/Wireframes/mobile-wireframe.png)
 
-[Desktop Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/wireframes/web-wireframe.png)
+[Desktop Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/Wireframes/web-wireframe.png)
 
-[404 Desktop Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/wireframes/404desktop-wireframe.png)
+[404 Desktop Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/Wireframes/404desktop-wireframe.png)
 
-[404 Mobile Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/wireframes/404mobile-wireframe.png)
+[404 Mobile Wireframes](https://github.com/slammer1870/ci-ms-1/blob/main/assets/Wireframes/404mobile-wireframe.png)
 
 ## Features
 Single page, fully responsive with in interacitve iframe to demo the product.
