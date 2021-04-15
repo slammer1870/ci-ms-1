@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
    <head>
-      <meta name="description" content="Landing page for the Hook Grip Tech Coaching App">
-      <meta name="keywords" content="HTML, CSS, JavaScript">
-      <meta name="author" content="Sam Mc Nally">
+      <meta
+         name="description"
+         content="Landing page for the Hook Grip Tech Coaching App"
+         />
+      <meta name="keywords" content="HTML, CSS, JavaScript" />
+      <meta name="author" content="Sam Mc Nally" />
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="assets/css/style.css" />
@@ -64,26 +67,25 @@
                   <li class="nav-item">
                      <a href="#demo" class="nav-link text-white">Try it out</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item" id="exampleModalLabel">
                      <!-- Button trigger modal -->
                      <button
                         type="button"
                         class="btn btn-primary"
-                        data-toggle="modal"
-                        data-target="#exampleModalCenter"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
                         >
-                     Contact
+                     Contact Us
                      </button>
                      <!-- Modal -->
                      <div
                         class="modal fade"
-                        id="exampleModalCenter"
+                        id="exampleModal"
                         tabindex="-1"
-                        role="dialog"
-                        aria-labelledby="exampleModalCenterTitle"
+                        aria-labelledby="exampleModalLabel"
                         aria-hidden="true"
                         >
-                        <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-dialog modal-dialog-centered">
                            <div class="modal-content">
                               <div class="modal-header">
                                  <h5 class="modal-title" id="exampleModalCenterTitle">
@@ -91,12 +93,10 @@
                                  </h5>
                                  <button
                                     type="button"
-                                    class=""
-                                    data-dismiss="modal"
+                                    class="btn-close"
+                                    data-bs-dismiss="modal"
                                     aria-label="Close"
-                                    >
-                                 <i class="fas fa-times fa-lg"></i>
-                                 </button>
+                                    ></button>
                               </div>
                               <div class="modal-body">
                                  <form
@@ -293,47 +293,53 @@
       <!--Features section-->
       <section class="features text-center">
          <div class="container">
-         <h2 class="mb-5">Features</h2>
-         <!--Column aligment on small screens-->
-         <div class="features-alignment">
-            <div class="row">
-               <div class="col-12 col-lg-4 d-flex flex-row flex-md-column align-items-md-center mb-4">
-                  <div class="col-6">
-                     <i class="far fa-envelope fa-5x mb-2"></i>
-                     <h3 class="mb-4">Articles</h3>
+            <h2 class="mb-5">Features</h2>
+            <!--Column aligment on small screens-->
+            <div class="features-alignment">
+               <div class="row">
+                  <div
+                     class="col-12 col-lg-4 d-flex flex-row flex-md-column align-items-md-center mb-4"
+                     >
+                     <div class="col-6">
+                        <i class="far fa-envelope fa-5x mb-2"></i>
+                        <h3 class="mb-4">Articles</h3>
+                     </div>
+                     <p>
+                        Articles can be used to engage your audience on a regular basis.
+                        <br /><br />
+                        You can write articles in the markdown editor, you can also
+                        include image and video embeds
+                     </p>
                   </div>
-                  <p>
-                     Articles can be used to engage your audience on a regular
-                     basis.
-                  <br><br>
-                     You can write articles in the markdown editor, you can also
-                     include image and video embeds
-                  </p>
-               </div>
-               <div class="col-12 col-lg-4 d-flex flex-row flex-md-column align-items-md-center mb-4">
-                  <div class="col-6">
-                     <i class="fas fa-video fa-5x mb-2"></i>
-                     <h3 class="mb-4">Courses</h3>
+                  <div
+                     class="col-12 col-lg-4 d-flex flex-row flex-md-column align-items-md-center mb-4"
+                     >
+                     <div class="col-6">
+                        <i class="fas fa-video fa-5x mb-2"></i>
+                        <h3 class="mb-4">Courses</h3>
+                     </div>
+                     <p>
+                        Our courses feature allows you to sell courses directly from
+                        your app.
+                        <br /><br />
+                        Courses are structured in chapters and lessons.
+                     </p>
                   </div>
-                  <p>
-                     Our courses feature allows you to sell courses directly from
-                     your app. 
-                     <br><br>
-                     Courses are structured in chapters and lessons.
-                  </p>
-               </div>
-               <div class="col-12 col-lg-4 d-flex flex-row flex-md-column align-items-md-center mb-4">
-                  <div class="col-6">
-                     <i class="fas fa-user-edit fa-5x mb-2"></i>
-                     <h3 class="mb-4">Curriculums</h3>
+                  <div
+                     class="col-12 col-lg-4 d-flex flex-row flex-md-column align-items-md-center mb-4"
+                     >
+                     <div class="col-6">
+                        <i class="fas fa-user-edit fa-5x mb-2"></i>
+                        <h3 class="mb-4">Curriculums</h3>
+                     </div>
+                     <p>
+                        Curriculums allow you to provide personalised coaching, direct
+                        to consumer.
+                        <br /><br />
+                        Curriculums are structured the same way as courses but can be
+                        assigned to specific users.
+                     </p>
                   </div>
-                  <p>
-                     Curriculums allow you to provide personalised coaching, direct
-                     to consumer.
-                     <br><br>
-                     Curriculums are structured the same way as courses but can be
-                     assigned to specific users.
-                  </p>
                </div>
             </div>
          </div>
@@ -598,8 +604,17 @@
                         Some of the features in the works will include scheduling for
                         curriculum and consulations calls.
                      </p>
-                     <p>Our intent is to release this project as an open source project to help provide atheltes with a platform to monetise their skills.</p>
-                     <a href="https://demo.hookgrip.tech/" target="_blank" rel="noopener">If you would like to view the entire site, click here!</a>
+                     <p>
+                        Our intent is to release this project as an open source project
+                        to help provide atheltes with a platform to monetise their
+                        skills.
+                     </p>
+                     <a
+                        href="https://demo.hookgrip.tech/"
+                        target="_blank"
+                        rel="noopener"
+                        >If you would like to view the entire site, click here!</a
+                        >
                   </div>
                </div>
                <div class="col-lg-6">
@@ -607,8 +622,8 @@
                   <div class="smartphone">
                      <div class="content">
                         <iframe
-                        title="Demo app"   
-                        src="https://demo.hookgrip.tech/"
+                           title="Demo app"
+                           src="https://demo.hookgrip.tech/"
                            style="width: 100%; border: none; height: 100%"
                            >
                         </iframe>
@@ -643,11 +658,6 @@
          crossorigin="anonymous"
          ></script>
       <script
-         src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-         crossorigin="anonymous"
-         ></script>
-      <script
          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
          integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
          crossorigin="anonymous"
@@ -673,4 +683,4 @@
          });
       </script>
    </body>
-</html><!DOCTYPE html>
+</html>
