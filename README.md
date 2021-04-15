@@ -115,7 +115,7 @@ I performed a lighthouse test using the Chrome Dev Tools. There were some best p
 
 I tested the site on multiple browsers such as Chrome and Safari as well as testing on multiple devices including iOS and Android phones.
 
-- ### Testing Results
+#### Testing Results
 
 - Breakpoints: The page loads with the correct breakpoints. Note the varying layout for the different elements chanding from lists to grips depending on screen width
 - Modal Usage: The modal is designed to be centered on the screen with mobile devices viewing a modal that takes up the majority of the screen and desktop screens viewing a small, centered modal
