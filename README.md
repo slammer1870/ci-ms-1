@@ -96,6 +96,8 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 
+```
+
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -112,6 +114,4 @@ All Icons are from [Font Awesome:](https://fontawesome.com/)
 
 The Hero Image is from [MaggieLeft](https://maggieleft.com/)
 
-## Deployment
-
-The project was deployed to Github Pages by adding a 'gh-pages' branch to the github repo. I then configured a custom domain using the DNS records on GoDaddy where the domain was purchased.
+My Mentor, Reuben guided me along in the process of building this website.
